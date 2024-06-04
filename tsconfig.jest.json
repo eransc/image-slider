@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "jsx": "react-jsx",  // Preset for React 17+ JSX transform
+      "esModuleInterop": true,
+      "module": "CommonJS"
+    }
+  }
+  
