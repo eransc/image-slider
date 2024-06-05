@@ -14,7 +14,17 @@ Before running the project locally, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/): Make sure you have Node.js installed on your machine. You can download it from the official website.
 
-## Installation
+## Run through static server - NWS
+
+1. **Install NWS globally :**
+   ```sh
+   npm i -g nws
+
+1. **Launch server :**
+   ```sh
+   nws -p 8080 -d dist 
+
+## Run Installation For local dev
 
 Follow these steps to set up the project on your local machine:
 
@@ -29,11 +39,11 @@ Follow these steps to set up the project on your local machine:
 3. **Install dependencies:**
    npm install
 
-# Using Your Own Images
+# Using Your Own Images (Dev mode)
 
 You can use your own images with the ImageSlider project. Follow these steps to use local or external images:
 
-# Using Local Images
+# Using Local Images (Dev mode)
 
 1. **Place your images in the public/images directory:**
 ```project-root/
