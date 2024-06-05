@@ -2,7 +2,8 @@
 
 ## Introduction
 
-The ImageSlider project is a React-based application that displays an image slider. It supports images hosted locally or externally on the web.
+The ImageSlider project is a React-based application based on vite with local web server that displays an image slider which is expecting images array as an input. 
+It supports images hosted locally or externally on the web.
 
 ## Prerequisites
 
@@ -32,7 +33,7 @@ You can use your own images with the ImageSlider project. Follow these steps to 
 # Using Local Images
 
 1. **Place your images in the public/images directory:**
-project-root/
+```project-root/
 ├── public/
 │   ├── images/
 │   │   ├── your-image1.jpg
@@ -40,7 +41,7 @@ project-root/
 │   │   └── ...
 
 2. **Update the images.ts file in the src directory to include your images:**
-export const images = [
+```export const images = [
   '/images/your-image1.jpg',
   '/images/your-image2.jpg',
   // Add paths to your images here
