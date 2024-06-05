@@ -1,20 +1,54 @@
 # ImageSlider Project
 
-## How to Run Locally
-To run the ImageSlider project locally, follow these steps:
+## Introduction
 
-### Prerequisites
-- Ensure you have Node.js installed.
+The ImageSlider project is a React-based application that displays an image slider. It supports images hosted locally or externally on the web.
 
-### Installation
-- Clone the repository: `git clone URL`
-- Navigate to the project directory: `cd image-slider`
-- Install dependencies: `npm install`
+## Prerequisites
 
-### Running the Project
-- Build the project: `npm run build`
-- Serve the project using a static server:
-  - Install a static server if you don't have one: `npm install -g nws`
-  - Run the server: `nws -p 8000 -d release`
+Before running the project locally, ensure you have the following installed:
 
-Open `http://localhost:8000` in your browser to view the project.
+- [Node.js](https://nodejs.org/): Make sure you have Node.js installed on your machine. You can download it from the official website.
+
+## Installation
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone <URL>
+
+2. **Navigate to project direcotry:**
+   cd image-slider
+
+3. **Install dependencies:**
+   npm install
+
+# Using Your Own Images
+
+You can use your own images with the ImageSlider project. Follow these steps to use local or external images:
+
+# Using Local Images
+
+1. **Place your images in the public/images directory:**
+project-root/
+├── public/
+│   ├── images/
+│   │   ├── your-image1.jpg
+│   │   ├── your-image2.jpg
+│   │   └── ...
+
+2. **Update the images.ts file in the src directory to include your images:**
+export const images = [
+  '/images/your-image1.jpg',
+  '/images/your-image2.jpg',
+  // Add paths to your images here
+];
+
+# Using External Images
+1. **Update the image.ts file **
+
+# Running the project
+
+After updating the images, run npm run dev
